@@ -7,7 +7,7 @@
 		stage ('clone repo from hub'){
 			steps{
 				
-				git branch: 'main', credentialsId: 'none', git clone https://github.com/AhmedShanwany/Docker_Hello_world.git
+				git branch: 'main', credentialsId: 'none', url: 'https://github.com/AhmedShanwany/Docker_Hello_world.git'
 				
 			}
 		}
