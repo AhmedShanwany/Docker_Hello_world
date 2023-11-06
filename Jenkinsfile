@@ -16,7 +16,7 @@
             steps {
                 script {
 				bat 'dir'
-				bat 'set path=C:\\Program Files (x86)\\jdk-19_windows-x64_bin\\jdk-19.0.2\\bin'
+				//bat 'set path=C:\\Program Files (x86)\\jdk-19_windows-x64_bin\\jdk-19.0.2\\bin'
 				
                      }
             }
