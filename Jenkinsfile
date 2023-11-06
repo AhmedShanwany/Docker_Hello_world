@@ -32,7 +32,7 @@
 		stage ('execute code') {
             steps {
 				script{
-                bat 'java hello_world.Hello_world'
+                bat 'java Hello_world'
                 
 				}
 			}
